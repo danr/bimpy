@@ -61,7 +61,7 @@ while not ctx.should_close():
         if bp.button("OK"):
             print(s.value)
 
-        bp.input_text('string', str, 256)
+        bp.input_text('string', s, 256)
 
         bp.slider_float("float", f, 0, 1)
 ```
